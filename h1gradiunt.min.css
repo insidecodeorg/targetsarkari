@@ -1,0 +1,31 @@
+ 
+.header-widget{
+  display: inline-block;
+  background-attachment: fixed;
+  background: -moz-linear-gradient(-45deg,  #0000ff 0%, #ffffff 17%, #0000ff 31%, #ffffff 44%, #0000ff 63%, #ffffff 78%, #0000ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #0000ff 0%,#ffffff 17%,#0000ff 31%,#ffffff 44%,#0000ff 63%,#ffffff 78%,#0000ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #fa0000 0%,#ffffff 17%,#ff0000 31%,#ffffff 44%,#00ff06 63%,#ffffff 78%,#ff0400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+          text-fill-color: transparent;
+  
+  -webkit-animation: gradient 10s linear infinite;
+          animation: gradient 10s linear infinite;
+  
+   background-position: 0 center;
+   background-size: 200% auto;
+}
+
+@keyframes gradient{
+  to {
+    background-position: 200% center;
+  }
+}
+
+@-webkit-keyframes gradient{
+  to {
+    background-position: 200% center;
+  }
+}
