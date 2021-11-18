@@ -1,0 +1,53 @@
+.modal { display: none; position: fixed; top: 0; right: 0; bottom: 0; left: 0;
+text-align: left; background: rgba(0,0,0, .9); transition: opacity .25s ease;
+z-index:999; } .at-pop__bg{ position: absolute; top: 0; right: 0; bottom: 0;
+left: 0; cursor: pointer; } .at-pop { display: none; } .at-pop__inner {
+transition: top .25s ease; position: absolute; top: -20%; right: 0; bottom: 0;
+left: 0; width: 50%; margin: auto; overflow: auto; background: #dde1e7;
+border-radius: 5px; padding: 1em 2em; height: 50%; } .at-pop__close { position:
+absolute; right: 1em; top: 1em; width: 1.1em; height: 1.1em; cursor: pointer;
+border: 1px solid; } .at-pop__close:after, .at-pop__close:before { content:
+&#39;&#39;; position: absolute; width: 2px; height: 1.5em; background: #333;
+display: block; transform: rotate(45deg); left: 50%; margin: -3px 0 0 -1px; top:
+0; } .at-pop__close:hover:after, .at-pop__close:hover:before { background: #aaa;
+} .at-pop__close:before { transform: rotate(-45deg); } @media screen and
+(max-width: 768px) { .at-pop__inner { width: 90%; box-sizing: border-box; } }
+.adpop-top{ height: 40px; width: 100%; border-bottom: 1px #8a8a8a solid; }
+.adhtml{ margin: 14px 0 4px; min-height: 210px; } .adpop-content{ height: 0px; }
+#at-downloadx{ display: flex; height: 30px; line-height: 30px; width: 140px;
+text-align: center; background-color: #dde1e7; color: #000; font-size: 15px;
+border-radius: 8px; text-transform: capitalize; border: 1px solid #dde1e7;
+margin-top: 1px; box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgb(94 104 121
+/ 95%); } .download-pop{ line-height: 16px; margin: 5px 0 5px; font-size: 14px;
+position: relative; } .down-follow{ display: flex; flex-wrap: wrap; } .adpop-top
+h2{ margin:0 } .buttons-download { display: flex; justify-content: center;
+align-items: center; flex-wrap: wrap; justify-content: space-around; }
+.box-download { position: relative; display: flex; align-items: center;
+background-color: #dde1e7; display: flex; justify-content: center; align-items:
+center; flex-wrap: wrap; padding: 10px 12px; border-radius: 999px; box-shadow:
+-3px -3px 7px #ffffffb2, 3px 3px 5px rgb(94 104 121 / 95%); } .box-download a {
+text-decoration: none; color: rgb(0, 0, 0); display: flex; position: relative;
+font-family: "Roboto",sans-serif; font-weight: 600; } .fab { display: flex;
+font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1;
+} a i span { display: inline-block; background-attachment: fixed; background:
+-moz-linear-gradient(-45deg, #0000ff 0%, #ffffff 17%, #0000ff 31%, #ffffff 44%,
+#0000ff 63%, #ffffff 78%, #0000ff 100%); /* FF3.6-15 */ background:
+-webkit-linear-gradient(-45deg, #0000ff 0%,#ffffff 17%,#0000ff 31%,#ffffff
+44%,#0000ff 63%,#ffffff 78%,#0000ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #0000ff 0%,#ffffff 17%,#0000ff 31%,#ffffff
+44%,#0000ff 63%,#ffffff 78%,#0000ff 100%); /* W3C, IE10+, FF16+, Chrome26+,
+Opera12+, Safari7+ */ -webkit-background-clip: text; background-clip: text;
+-webkit-text-fill-color: transparent; text-fill-color: transparent;
+-webkit-animation: gradient 10s linear infinite; animation: gradient 10s linear
+infinite; background-position: 0 center; background-size: 200% auto; }
+@keyframes gradient{ to { background-position: 200% center; } }
+@-webkit-keyframes gradient{ to { background-position: 200% center; } }
+body::-webkit-scrollbar { width: 7px; } body::-webkit-scrollbar-track {
+background-image: linear-gradient( 180.9deg, rgba(248,229,249,1) -21.5%,
+rgba(209,170,223,1) 101.2% ); border-radius: 999px; margin-block: .5em; display:
+none; transition: all 400ms; } body::-webkit-scrollbar-track:hover{ display:
+flex; } body::-webkit-scrollbar-thumb { border-radius: 8px; transition: all
+500ms; background-image: radial-gradient( circle 690px at 8.8% 19%, rgba(0, 0,
+0, 0.535) 8%, rgba(187,187,187,1) 84.1% ); } body::-webkit-scrollbar-thumb:hover
+{ border-radius: 8px; background-image: radial-gradient( circle farthest-corner
+at 10% 20%, rgba(247,87,0,1) 0%, rgba(249,0,0,1) 90.1% ); }
