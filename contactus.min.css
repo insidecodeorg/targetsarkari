@@ -1,0 +1,331 @@
+
+  
+section .container .contactinfo .info {
+    position: relative;
+    margin: 20px 0;
+}   
+
+   section .container .contactinfo .info li {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: center;
+}
+   
+   section .container .contactinfo .info li span:nth-child(1) {
+}
+   
+   section .container .contactinfo .info li:first-child span:nth-child(1) svg {
+    fill: rgb(199, 199, 199);
+}
+   
+   section .container .contactinfo .info li span:nth-child(1) svg {
+    width: 30px;
+    height: 30px;
+    /* filter: invert(1); */
+    opacity: 0.7;
+}
+   
+   
+   section .container .contactinfo .sci {
+    position: relative;
+    display: flex;
+}
+   
+   section .container .contactinfo .sci li {
+    list-style: none;
+    margin-right: 20px;
+}
+   section .container .contactinfo .sci li a {
+    text-decoration: none;
+}
+   section .container .contactinfo .sci li a svg {
+    /* filter: invert(1); */
+    opacity: 0.8;
+    height: 30px;
+    width: 30px;
+}
+   
+   
+   
+
+
+form {
+  position: relative;
+  width: 440px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background: white;
+  flex-wrap: wrap;
+}
+form input, form textarea {
+  background: #c7faff;
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  border: 0;
+}
+form input {
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  border-bottom: 1px solid rgba(68, 68, 68, 0.3);
+  font-size: 1rem;
+  color: #000;
+}
+form textarea {
+  border-bottom: 1px solid rgba(68, 68, 68, 0.3);
+  resize: none;
+  outline: none;
+  font-size: 1rem;
+  font-family: lato;
+  color:#000;
+}
+form button {
+  position: absolute;
+  display: block;
+  height: 40px;
+  width: 250px;
+  left: 95px;
+  border: 0;
+  border-radius: 20px;
+  bottom: -20px;
+  background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 300;
+  outline: none;
+}
+
+.contact-form {
+  padding-bottom: 40px;
+  margin-left: 92px;
+}
+
+/* Layout Stuff */
+
+
+.contact-form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr 2fr;
+  grid-template-areas: "contact-us header header header" "contact-us address phone email" "contact-us contact-form contact-form contact-form";
+}
+
+.contact-us {
+  grid-area: contact-us;
+}
+
+.header {
+  grid-area: header;
+}
+
+.address {
+  grid-area: address;
+}
+
+.phone {
+  grid-area: phone;
+}
+
+.email {
+  grid-area: email;
+}
+
+.contact-form {
+  grid-area: contact-form;
+}
+
+  
+
+/* Pretty Stuff */
+
+.address, .email, .phone {
+  text-align: center;
+  padding: 20px 0;
+  color: #444;
+}
+.address h3, .email h3, .phone h3 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.address i, .email i, .phone i {
+  color: #F8B7D8;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+form {
+  position: relative;
+  width: 440px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background: white;
+  flex-wrap: wrap;
+}
+form input, form textarea {
+  background: #c7faff;
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  border: 0;
+}
+
+  
+form input {
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  border-bottom: 1px solid rgba(68, 68, 68, 0.3);
+  font-size: 1rem;
+  color: #000;
+}
+form textarea {
+  border-bottom: 1px solid rgba(68, 68, 68, 0.3);
+  resize: none;
+  outline: none;
+  font-size: 1rem;
+  font-family: lato;
+  color: #000;
+}
+form button {
+  position: absolute;
+  display: block;
+  height: 40px;
+  width: 250px;
+  left: 95px;
+  border: 0;
+  border-radius: 20px;
+  bottom: -20px;
+  background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 300;
+  outline: none;
+}
+
+.contact-form {
+  padding-bottom: 36px;
+    margin-left: 231px;
+    margin-top: 42px;
+}
+
+/* Layout Stuff */
+
+
+.contact-form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr 2fr;
+  grid-template-areas: "contact-us header header header" "contact-us address phone email" "contact-us contact-form contact-form contact-form";
+}
+
+.contact-us {
+  grid-area: contact-us;
+}
+
+.header {
+  grid-area: header;
+}
+
+.address {
+  grid-area: address;
+}
+
+.phone {
+  grid-area: phone;
+}
+
+.email {
+  grid-area: email;
+}
+
+.contact-form {
+  grid-area: contact-form;
+}
+
+
+ .contactinfo {
+    position: absolute;
+    margin-left: 8%;
+    top: 40px;
+    width: 30%;
+    height: calc(100% - 80px);
+    background: #0f3959;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px rgb(0 0 0 / 20%);
+    margin-top: 25px;
+}
+  
+.contactinfo h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800;
+}
+  
+  section .container .contactinfo .info {
+    position: relative;
+    margin: 20px 0;
+}
+  
+  
+  section .container .contactinfo .sci {
+    position: relative;
+    display: flex;
+    padding-bottom: 25px;
+}
+  
+  
+  .container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    padding-bottom: 24px;
+}
+
+  .static_page .item-post h1.entry-title {
+    margin: 0;
+    text-align: center;
+    color: blue;
+    opacity: 0;
+}
+  
+  form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+    background-image: radial-gradient( circle 588px at 31.7% 40.2%, rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+  
+  .sci li a i.fab {
+    font-size: xx-large;
+    padding-left: 13px;
+}
+  section .container .contactinfo .info li span:nth-child(1) {
+    padding-right: 10px;
+}
+    input {
+    background: #c7faff;
+    color:#000;
+  }
+  
+  form input {
+    width: 100%;
+    background: #c7fbf6;
+    color: black;
+    outline: none;
+}
